@@ -19,21 +19,21 @@ from sklearn import svm
 from sklearn.ensemble import RandomForestRegressor
 import os
 import warnings
-from keras.layers import Dense
-from keras.models import load_model
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import load_model
 # from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import cross_val_score
-from keras.models import Sequential
-from keras.callbacks import Callback
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.callbacks import Callback
 # from keras.preprocessing import text, sequence
 # from keras.wrappers.scikit_learn import KerasRegressor
-from keras.layers import GRU, Bidirectional, GlobalAveragePooling1D, GlobalMaxPooling1D
-from keras.layers import Input, Dense, Embedding, SpatialDropout1D, concatenate
-from keras.models import Model
-from keras.callbacks import ModelCheckpoint
-from keras.optimizers import Adam, SGD
-import keras
+from tensorflow.keras.layers import GRU, Bidirectional, GlobalAveragePooling1D, GlobalMaxPooling1D
+from tensorflow.keras.layers import Input, Dense, Embedding, SpatialDropout1D, concatenate
+from tensorflow.keras.models import Model
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.optimizers import Adam, SGD
+# import keras
 from nltk import pos_tag, word_tokenize
 from nltk import WordNetLemmatizer
 from sklearn.metrics import roc_auc_score
