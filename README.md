@@ -1,5 +1,7 @@
 From [sheriftawfikabbas/machinelearningphonons](https://github.com/sheriftawfikabbas/machinelearningphonons.git)
 
+Related to [Predicting Thermal Properties of Crystals Using Machine Learning](https://doi.org/10.1002/adts.201900208)
+
 
 # Data for "Predicting thermal properties of crystals using machine learning"
 
