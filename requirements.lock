@@ -89,7 +89,7 @@ namex==0.0.8
     # via keras
 nest-asyncio==1.6.0
     # via ipykernel
-numpy==1.26.3
+numpy==1.26.4
     # via contourpy
     # via h5py
     # via keras
@@ -102,6 +102,9 @@ numpy==1.26.3
     # via scipy
     # via tensorboard
     # via tensorflow
+    # via xgboost
+nvidia-nccl-cu12==2.23.4
+    # via xgboost
 opt-einsum==3.3.0
     # via tensorflow
 optree==0.12.1
@@ -153,9 +156,12 @@ rich==13.8.1
     # via keras
 scikit-learn==1.5.2
     # via mlphonons
+scikit-rvm @ file:///home/omarf/Project/ML%20Project/mlphonons/src/scikit-rvm
+    # via mlphonons
 scipy==1.14.1
     # via mlphonons
     # via scikit-learn
+    # via xgboost
 setuptools==75.1.0
     # via tensorboard
     # via tensorflow
@@ -206,3 +212,5 @@ wheel==0.44.0
     # via astunparse
 wrapt==1.16.0
     # via tensorflow
+xgboost==2.1.1
+    # via mlphonons
